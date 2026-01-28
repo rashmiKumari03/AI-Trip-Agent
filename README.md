@@ -174,12 +174,6 @@ uv pip install -r requirements.txt
 ```bash
 uv add streamlit crewai langchain python-dotenv --active
 ```
-
-This updates:
-
-- pyproject.toml  
-- uv.lock  
-
 ---
 
 ## 🔑 Environment Variables
@@ -228,12 +222,18 @@ http://localhost:8501
 ### 1. Code Snippet — Core Application Logic
 
 ![alt text](images/01.Code_img.png)
+
 ----
+
 ### 2. User Interface — Preference Input Panel & Dashboard
 
 ![alt text](images/02.UI_1.png)
 
+---
+
 ![alt text](images/03.UI_2.png)
+
+---
 
 ![alt text](images/04.UI_3.png)
 
@@ -247,9 +247,15 @@ http://localhost:8501
 ### 4. Final Response — Personalized Travel Plan Output
 ![alt text](<images/06.1 response1.png>)
 
+----
+
 ![alt text](<images/06.2 response2.png>)
 
+---
+
 ![alt text](<images/06.3 response3.png>)
+
+---
 
 ![alt text](<images/06.4 response4.png>)
 
