@@ -212,7 +212,7 @@ LLM connection OK
 ## ▶ Run the Application
 
 ```bash
-streamlit run main.py
+streamlit run app.py
 ```
 
 Open:
@@ -223,21 +223,36 @@ http://localhost:8501
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Snaps
 
-Add screenshots inside an `images/` folder:
+### 1. Code Snippet — Core Application Logic
 
-### Home Screen
+![alt text](images/01.Code_img.png)
+----
+### 2. User Interface — Preference Input Panel & Dashboard
 
-```
-images/home.png
-```
+![alt text](images/02.UI_1.png)
 
-### Generated Plan
+![alt text](images/03.UI_2.png)
 
-```
-images/results.png
-```
+![alt text](images/04.UI_3.png)
+
+---
+### 3. Generating Response — AI Agents in Action
+
+![alt text](images/05.Generating_response.png)
+
+---
+
+### 4. Final Response — Personalized Travel Plan Output
+![alt text](<images/06.1 response1.png>)
+
+![alt text](<images/06.2 response2.png>)
+
+![alt text](<images/06.3 response3.png>)
+
+![alt text](<images/06.4 response4.png>)
+
 
 ---
 
