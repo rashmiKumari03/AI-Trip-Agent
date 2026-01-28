@@ -282,6 +282,6 @@ Displayed in an interactive dashboard.
 - Clean UI design with Streamlit  
 - Practical problem solving  
 - Modular architecture  
-- Ideal for portfolios and academic submissions  
+
 
 ---
