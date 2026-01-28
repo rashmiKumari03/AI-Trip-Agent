@@ -170,10 +170,9 @@ uv pip install -r requirements.txt
 
 ## 📦 Add Dependencies to pyproject.toml
 
-To sync packages into TOML:
 
 ```bash
-uv add streamlit crewai langchain python-dotenv
+uv add streamlit crewai langchain python-dotenv --active
 ```
 
 This updates:
