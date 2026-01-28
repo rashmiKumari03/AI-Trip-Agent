@@ -1,2 +1,6 @@
-praisonaiagents[llm,mcp]
-gradio
+streamlit
+crewai
+langchain
+langchain-openai
+openai
+python-dotenv
