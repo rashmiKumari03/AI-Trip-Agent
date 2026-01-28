@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 
+
 # Load env immediately
 load_dotenv(override=True)
 
@@ -12,12 +13,12 @@ def get_llm(model="gpt-4.1-mini", temperature=0.7):
     base_url = os.getenv("OPENAI_BASE_URL")
 
     if not api_key:
-        raise RuntimeError("❌ OPENAI_API_KEY missing")
+        raise RuntimeError("OPENAI_API_KEY is missing")
 
     if not base_url:
-        raise RuntimeError("❌ endpoint missing")
+        raise RuntimeError("OPENAI_BASE_URL is missing")
 
-    print(f"🔐 EURON Gateway: {base_url}")
+    print(f"Using LLM gateway: {base_url}")
 
     return ChatOpenAI(
         model=model,
@@ -26,6 +27,6 @@ def get_llm(model="gpt-4.1-mini", temperature=0.7):
         base_url=base_url,
         default_headers={
             "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
         },
     )
