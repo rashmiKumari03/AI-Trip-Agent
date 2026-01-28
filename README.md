@@ -81,7 +81,7 @@ The result is a professional travel plan tailored to the user.
 - uv  
 - python-dotenv  
 - HTML & CSS styling  
-- LLM Gateway (EURON / OpenAI compatible)
+- LLM Gateway 
 
 ---
 
